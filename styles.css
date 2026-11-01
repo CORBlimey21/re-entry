@@ -1573,45 +1573,12 @@ input[type=range]::-moz-range-thumb {
   font-weight: 500;
 }
 
-.investigation-plan {
-  border-left: 1px solid var(--line);
-  padding-left: 35px;
-}
 
-.investigation-plan>.mono {
-  font-size: 8px;
-  color: var(--muted);
-}
 
-.investigation-plan ol {
-  list-style: none;
-  padding: 0;
-  margin: 25px 0 0;
-}
 
-.investigation-plan li {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 25px;
-}
 
-.investigation-plan li>span {
-  font: 10px var(--mono);
-  color: var(--orange);
-  padding-top: 3px;
-}
 
-.investigation-plan li strong {
-  font-size: 13px;
-  font-weight: 500;
-}
 
-.investigation-plan li p {
-  font-size: 12px;
-  line-height: 1.7;
-  color: var(--muted);
-  margin: 6px 0 0;
-}
 
 .chapter-end {
   text-align: right;
@@ -2370,15 +2337,6 @@ input[type=range]::-moz-range-thumb {
   }
   .investigation>div>p {
     font-size: 12px;
-  }
-  .investigation-plan {
-    padding-left: 20px;
-  }
-  .investigation-plan li strong {
-    font-size: 12px;
-  }
-  .investigation-plan li p {
-    font-size: 11px;
   }
   .chapter-end {
     padding: 24px 0 32px;
