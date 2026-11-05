@@ -409,6 +409,18 @@ svg {
   margin: 0;
 }
 
+.language-breakdown>span {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.language-breakdown b {
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  color: var(--cyan);
+}
+
 .site-about-content .source-count-note {
   font-size: 11px;
   line-height: 1.6;
