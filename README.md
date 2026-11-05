@@ -27,6 +27,8 @@ Serve the files over HTTP; ES modules do not work reliably by opening `index.htm
 
 Site code, fonts and illustrations are local. The KSP chapter embeds an external YouTube player, which requires an internet connection. Visitors can also follow the reference links. Inline illustrations are original explanatory drawings; they are not photographs or reconstructed flight data.
 
+The introduction credits Cillian Ó Ríordáin and includes a native, keyboard-accessible “About this site” disclosure. It lists the languages, GitHub Pages hosting and AI assistance with the code and draft text. Each build inserts the current non-blank line count from `index.html`, `styles.css`, `js/app.js` and `js/science.js`; comments and inline diagrams count, while bundled assets, tooling and tests do not. The unbuilt development page labels the count as available at build time.
+
 ## What works in this iteration
 
 - Responsive narrative and persistent chapter navigation, progress line and return links.

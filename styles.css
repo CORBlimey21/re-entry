@@ -285,7 +285,7 @@ svg {
   pointer-events: none;
 }
 
-.hero-copy a {
+.hero-copy a,.hero-copy details {
   pointer-events: auto;
 }
 
@@ -340,6 +340,91 @@ svg {
   color: var(--muted);
   line-height: 1.8;
   margin-bottom: 25px;
+}
+
+.hero-copy>.hero-byline {
+  color: var(--ink);
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.hero-byline strong {
+  font-weight: 600;
+}
+
+.site-about {
+  width: min(100%,440px);
+  margin-top: 20px;
+  font-size: 13px;
+  text-shadow: none;
+}
+
+.site-about summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: fit-content;
+  min-height: 44px;
+  color: var(--cyan);
+  cursor: pointer;
+  list-style: none;
+}
+
+.site-about summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-about summary>span {
+  font: 18px var(--mono);
+}
+
+.site-about[open] summary>span {
+  transform: rotate(45deg);
+}
+
+.site-about-content {
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.site-facts {
+  margin: 0;
+}
+
+.site-facts>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding-bottom: 10px;
+}
+
+.site-facts dt,.site-about-content p {
+  color: var(--muted);
+}
+
+.site-facts dd {
+  margin: 0;
+}
+
+.site-about-content .source-count-note {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.site-about-content h3 {
+  font-size: 15px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+.site-about-content>a {
+  color: var(--cyan);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .primary-link {
